@@ -34,23 +34,23 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col gap-[16px]">
                     <p className="text-[18px] font-semibold ">ABOUT US</p>
-                    {aboutus.map((item) => <div className="flex gap-[9px]">
+                    {aboutus.map((item, index) => <div className="flex gap-[9px]">
                         <Image src={arrowRight} alt="Arrow Right" />
-                        <Link href={"#"} className="font-semibold text-[15px] text-grey-custom capitalize hover:text-green-custom">{item}</Link>
+                        <Link key={index}  href={"#"} className="font-semibold text-[15px] text-grey-custom capitalize hover:text-green-custom">{item}</Link>
                     </div>)}
                 </div>
                 <div className="flex flex-col gap-[16px]">
                     <p className="text-[18px] font-semibold ">ABOUT US</p>
-                    {discover.map((item) => <div className="flex gap-[9px]">
+                    {discover.map((item, index) => <div className="flex gap-[9px]">
                         <Image src={arrowRight} alt="Arrow Right" />
-                        <Link href={"#"} className="font-semibold text-[15px] text-grey-custom capitalize hover:text-green-custom">{item}</Link>
+                        <Link key={index}  href={"#"} className="font-semibold text-[15px] text-grey-custom capitalize hover:text-green-custom">{item}</Link>
                     </div>)}
                 </div>
                 <div className="flex flex-col gap-[16px]">
                     <p className="text-[18px] font-semibold ">ABOUT US</p>
-                    {usefulLinks.map((item) => <div className="flex gap-[9px]">
+                    {usefulLinks.map((item, index) => <div className="flex gap-[9px]">
                         <Image src={arrowRight} alt="Arrow Right" />
-                        <Link href={"#"} className="font-semibold text-[15px] text-grey-custom capitalize hover:text-green-custom">{item}</Link>
+                        <Link key={index} href={"#"} className="font-semibold text-[15px] text-grey-custom capitalize hover:text-green-custom">{item}</Link>
                     </div>)}
                     <button></button>
                 </div>
