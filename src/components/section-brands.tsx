@@ -29,14 +29,14 @@ const SectionBrands = () => {
     return (
         <section className="w-full py-[101px]">
             <GridContainer className="flex flex-col items-center gap-[76px]">
-                <div className="flex gap-[30px]">
-                    {brandsFistContainer.map((item) => <div className="container-brands rounded-[12px]">
+                <div className="flex gap-[30px]">git 
+                    {brandsFistContainer.map((item, index) => <div key={index} className="container-brands rounded-[12px]">
                         <Image src={item} alt="logo" width={255} height={95} />
                     </div>)}
 
                 </div>
                 <div className="flex justify-center gap-[30px]">
-                    {brandsSecondContainer.map((item) => <div className="container-brands rounded-[12px]">
+                    {brandsSecondContainer.map((item, index) => <div key={index} className="container-brands rounded-[12px]">
                         <Image src={item} alt="logo" width={255} height={95} />
                     </div>)}
 

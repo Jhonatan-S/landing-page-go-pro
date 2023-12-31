@@ -28,7 +28,7 @@ const Header = () => {
                             <a href="#" className="text-fourteen font-semibold  hover:text-green-custom">Home</a>
                         </li>
                         {
-                            itemNav.map((item) => <button className="flex items-center">
+                            itemNav.map((item, index) => <button key={index} className="flex items-center">
                                 <span className="text-fourteen font-semibold hover:text-green-custom">{item}</span>
                                 <Image
                                     className="mt-marginArrowNav"
