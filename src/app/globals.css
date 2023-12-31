@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.btn-get-starter{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
