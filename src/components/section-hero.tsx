@@ -2,7 +2,7 @@ import GridContainer from "@/components/grid-container";
 import Image from "next/image";
 import arrowRightWhite from "/public/arrow-right-white.svg";
 import arrowRightBlack from "/public/arrow-right.svg";
-import menWorking from "/public/men-Working.svg";
+import menWorking from "/public/men-working.svg";
 import TitleRounded from "./title-rounded";
 
 const SectionHero = () => {
