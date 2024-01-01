@@ -29,7 +29,7 @@ const SectionBrands = () => {
     return (
         <section className="w-full py-[101px]">
             <GridContainer className="flex flex-col items-center gap-[76px]">
-                <div className="flex gap-[30px]">git 
+                <div className="flex gap-[30px] ">
                     {brandsFistContainer.map((item, index) => <div key={index} className="container-brands rounded-[12px]">
                         <Image src={item} alt="logo" width={255} height={95} />
                     </div>)}
